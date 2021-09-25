@@ -246,7 +246,7 @@ const WordpressCategory: StorefrontFunctionComponent<CategoryProps> = ({
                   >
                     <WordpressTeaser
                       title={post.title.rendered}
-                      author={post.author.name}
+                      author={post.author?.name}
                       excerpt={post.excerpt.rendered}
                       date={post.date}
                       id={post.id}
