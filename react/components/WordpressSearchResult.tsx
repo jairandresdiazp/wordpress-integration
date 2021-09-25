@@ -316,7 +316,7 @@ const WordpressSearchResult: StorefrontFunctionComponent<SearchProps> = ({
                   >
                     <WordpressTeaser
                       title={post.title.rendered}
-                      author={post.author.name}
+                      author={post.author?.name}
                       categories={post.categories}
                       subcategoryUrls={subcategoryUrls}
                       customDomainSlug={params.customdomainslug}
